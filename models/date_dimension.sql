@@ -10,8 +10,8 @@ with cte as (
 
 
      
-    from
-    {{ source('demo', 'bike') }}
+    from {{ ref('stg_bike') }}
+
     where started_at != 'started_at'
 )
 

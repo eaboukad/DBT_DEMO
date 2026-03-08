@@ -1,3 +1,4 @@
+
 with daily_weather as (
 
 select 
